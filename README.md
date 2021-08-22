@@ -1,5 +1,10 @@
 
-[![Seed UI](https://raw.githubusercontent.com/srgmrwsk/seed-ui-layout/main/seed-ui-logo.png)](https://github.com/srgmrwsk/seed-ui-layout)
+<div align="center">
+
+  [![Seed UI](https://raw.githubusercontent.com/srgmrwsk/seed-ui-layout/main/seed-ui-logo.png)](https://github.com/srgmrwsk/seed-ui-layout)
+  
+  [![codecov](https://codecov.io/gh/srgmrwsk/seed-ui-layout/branch/main/graph/badge.svg?token=B6EZRSGAPB)](https://codecov.io/gh/srgmrwsk/seed-ui-layout)
+</div>
 
 # @seed-ui/layout
 
