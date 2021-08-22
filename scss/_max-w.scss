@@ -1,0 +1,13 @@
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include bp-up($breakpoint) {
+    @if $breakpoint == xs {
+      ._seed-max-w {
+        max-width: var(--seed-max-w);
+      }
+    } @else {
+      ._seed-max-w-#{$breakpoint} {
+        max-width: var(--seed-max-w-#{$breakpoint});
+      }
+    }
+  }
+}

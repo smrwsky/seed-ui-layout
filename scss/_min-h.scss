@@ -1,0 +1,15 @@
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include bp-up($breakpoint) {
+    @if $breakpoint == xs {
+      ._seed-min-h {
+        min-height: var(--seed-min-h);
+      }
+
+    } @else {
+      ._seed-min-h-#{$breakpoint} {
+        min-height: var(--seed-min-h-#{$breakpoint});
+      }
+    }
+  }
+}

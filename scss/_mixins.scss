@@ -1,0 +1,57 @@
+@function bp-next($name, $breakpoints: $grid-breakpoints) {
+  $names: map-keys($breakpoints);
+  $idx: index($names, $name);
+  @return if($idx < length($names), nth($names, $idx + 1), null);
+}
+
+@function bp-min($name, $breakpoints: $grid-breakpoints) {
+  @return map-get($breakpoints, $name);
+}
+
+@function bp-max ($name, $breakpoints: $grid-breakpoints) {
+  $val: map-get($breakpoints, $name);
+  @return if($val and $val > 0, $val - .02, $val);
+}
+
+@mixin bp-up($name, $breakpoints: $grid-breakpoints) {
+  $min-width: bp-min($name, $breakpoints);
+
+  @media (min-width: $min-width) {
+    @content;
+  }
+}
+
+@mixin bp-down($name, $breakpoints: $grid-breakpoints) {
+  $next: bp-next($name, $breakpoints);
+  $max-width: bp-max($next, $breakpoints);
+
+  @media (min-width: $max-width) {
+    @content;
+  }
+}
+
+@mixin bp-between($min, $max, $breakpoints: $grid-breakpoints) {
+  $min-width: bp-min($min, $breakpoints);
+  $max-width: bp-max($max, $breakpoints);
+
+  @media (min-width: $min-width) and (max-width: $max-width) {
+    @content;
+  }
+}
+
+@mixin bp-only($name, $breakpoints: $grid-breakpoints) {
+  $min-width: bp-min($name, $breakpoints);
+  $next: bp-next($name, $breakpoints);
+  $max-width: bp-max($next, $breakpoints);
+
+  @if $max-width == null  {
+    @include bp-up($min-width) {
+      @content;
+    }
+  } @else {
+    @include bp-between($min-width, $max-width) {
+      @content;
+    }
+  }
+}
+

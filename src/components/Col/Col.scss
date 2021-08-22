@@ -1,0 +1,43 @@
+.seed-col {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  line-height: 1;
+
+  @for $i from 1 through $grid-cols {
+    &:first-of-type:nth-last-of-type(#{$i}n),
+    &:first-of-type:nth-last-of-type(#{$i}n) ~ * {
+      width: 100% / $i;
+    }
+  }
+
+  @each $breakpoint in map-keys($grid-breakpoints) {
+    @include bp-up($breakpoint) {
+      &_#{$breakpoint} {
+        &_fill {
+          flex: 1 0 0;
+          display: block;
+        }
+
+        &_auto {
+          flex: 0 0 auto;
+          display: block;
+          width: auto;
+        }
+
+        &_none {
+          display: none;
+        }
+
+        @for $i from 1 through $grid-cols {
+          &_#{$i} {
+            flex: 0 0 auto;
+            display: block;
+            width: $i / 12 * 100%;
+          }
+        }
+      }
+    }
+  }
+}

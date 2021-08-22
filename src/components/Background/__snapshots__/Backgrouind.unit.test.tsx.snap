@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Background should render correctly with as prop 1`] = `
+<section
+  class=""
+/>
+`;
+
+exports[`Background should render correctly with background-image prop 1`] = `
+<div
+  class="_seed-bg-image"
+  style="--seed-bg-image: /images/image.jpg;"
+/>
+`;
+
+exports[`Background should render correctly with background-image responsive prop 1`] = `
+<div
+  class="_seed-bg-image _seed-bg-image-sm _seed-bg-image-md _seed-bg-image-lg _seed-bg-image-xl _seed-bg-image-xxl"
+  style="--seed-bg-image: /images/image.jpg; --seed-bg-image-sm: /images/image-sm.jpg; --seed-bg-image-md: /images/image-md.jpg; --seed-bg-image-lg: /images/image-lg.jpg; --seed-bg-image-xl: /images/image-xl.jpg; --seed-bg-image-xxl: /images/image-xxl.jpg;"
+/>
+`;
+
+exports[`Background should render correctly with background-position prop 1`] = `
+<div
+  class="_seed-bg-pos"
+  style="--seed-bg-pos: center;"
+/>
+`;
+
+exports[`Background should render correctly with background-position responsive prop 1`] = `
+<div
+  class="_seed-bg-pos _seed-bg-pos-sm _seed-bg-pos-md _seed-bg-pos-lg _seed-bg-pos-xl _seed-bg-pos-xxl"
+  style="--seed-bg-pos: left; --seed-bg-pos-sm: 50%; --seed-bg-pos-md: 50px; --seed-bg-pos-lg: 50% 50px; --seed-bg-pos-xl: left 50px; --seed-bg-pos-xxl: left top;"
+/>
+`;
+
+exports[`Background should render correctly with background-repeat prop 1`] = `
+<div
+  class="_seed-bg-repeat"
+  style="--seed-bg-repeat: no-repeat;"
+/>
+`;
+
+exports[`Background should render correctly with background-repeat responsive prop 1`] = `
+<div
+  class="_seed-bg-repeat _seed-bg-repeat-sm _seed-bg-repeat-md _seed-bg-repeat-lg _seed-bg-repeat-xl _seed-bg-repeat-xxl"
+  style="--seed-bg-repeat: no-repeat; --seed-bg-repeat-sm: repeat; --seed-bg-repeat-md: repeat-x; --seed-bg-repeat-lg: repeat-y; --seed-bg-repeat-xl: round; --seed-bg-repeat-xxl: space no-repeat;"
+/>
+`;
+
+exports[`Background should render correctly with background-size prop 1`] = `
+<div
+  class="_seed-bg-size"
+  style="--seed-bg-size: cover;"
+/>
+`;
+
+exports[`Background should render correctly with background-size responsive prop 1`] = `
+<div
+  class="_seed-bg-size _seed-bg-size-sm _seed-bg-size-md _seed-bg-size-lg _seed-bg-size-xl _seed-bg-size-xxl"
+  style="--seed-bg-size: cover; --seed-bg-size-sm: contain; --seed-bg-size-md: 250px 375px; --seed-bg-size-lg: 250px 37.5%; --seed-bg-size-xl: 25% 375px; --seed-bg-size-xxl: 250px 75vh;"
+/>
+`;
+
+exports[`Background should render correctly with children prop 1`] = `
+<div
+  class=""
+>
+  <p>
+    Element with text.
+  </p>
+</div>
+`;
+
+exports[`Background should render correctly with default props 1`] = `
+<div
+  class=""
+/>
+`;

@@ -1,0 +1,87 @@
+.seed-hidden {
+  display: contents;
+
+  &_xs-down {
+    @include bp-down(xs, $grid-breakpoints) {
+      display: none;
+    }
+  }
+
+  &_sm {
+    @include bp-only(sm, $grid-breakpoints) {
+      display: none;
+    }
+  }
+
+  &_sm-down {
+    @include bp-down(sm, $grid-breakpoints) {
+      display: none;
+    }
+  }
+
+  &_sm-up {
+    @include bp-up(sm, $grid-breakpoints) {
+      display: none;
+    }
+  }
+
+  &_md {
+    @include bp-only(md, $grid-breakpoints) {
+      display: none;
+    }
+  }
+
+  &_md-down {
+    @include bp-down(md, $grid-breakpoints) {
+      display: none;
+    }
+  }
+
+  &_md-up {
+    @include bp-up(md, $grid-breakpoints) {
+      display: none;
+    }
+  }
+
+  &_lg {
+    @include bp-only(lg, $grid-breakpoints) {
+      display: none;
+    }
+  }
+
+  &_lg-down {
+    @include bp-down(lg, $grid-breakpoints) {
+      display: none;
+    }
+  }
+
+  &_lg-up {
+    @include bp-up(lg, $grid-breakpoints) {
+      display: none;
+    }
+  }
+
+  &_xl {
+    @include bp-only(xl, $grid-breakpoints) {
+      display: none;
+    }
+  }
+
+  &_xl-down {
+    @include bp-down(xl, $grid-breakpoints) {
+      display: none;
+    }
+  }
+
+  &_xl-up {
+    @include bp-up(xl, $grid-breakpoints) {
+      display: none;
+    }
+  }
+
+  &_xxl-up {
+    @include bp-up(xxl, $grid-breakpoints) {
+      display: none;
+    }
+  }
+}

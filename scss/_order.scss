@@ -1,0 +1,16 @@
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include bp-up($breakpoint) {
+    @if $breakpoint == xs {
+      ._seed-order {
+        order: var(--seed-order);
+      }
+
+    } @else {
+      ._seed-order-#{$breakpoint} {
+        order: var(--seed-order-#{$breakpoint});
+      }
+    }
+  }
+}
+

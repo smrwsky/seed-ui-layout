@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hidden should render correctly with as prop 1`] = `
+<section
+  class="seed-hidden"
+/>
+`;
+
+exports[`Hidden should render correctly with children prop 1`] = `
+<div
+  class="seed-hidden"
+>
+  <p>
+    Element with text.
+  </p>
+</div>
+`;
+
+exports[`Hidden should render correctly with default props 1`] = `
+<div
+  class="seed-hidden"
+/>
+`;
+
+exports[`Hidden should render correctly with lg prop 1`] = `
+<div
+  class="seed-hidden seed-hidden_lg"
+/>
+`;
+
+exports[`Hidden should render correctly with lgDown prop 1`] = `
+<div
+  class="seed-hidden seed-hidden_lg-down"
+/>
+`;
+
+exports[`Hidden should render correctly with lgUp prop 1`] = `
+<div
+  class="seed-hidden seed-hidden_lg-up"
+/>
+`;
+
+exports[`Hidden should render correctly with md prop 1`] = `
+<div
+  class="seed-hidden seed-hidden_md"
+/>
+`;
+
+exports[`Hidden should render correctly with mdDown prop 1`] = `
+<div
+  class="seed-hidden seed-hidden_md-down"
+/>
+`;
+
+exports[`Hidden should render correctly with mdUp prop 1`] = `
+<div
+  class="seed-hidden seed-hidden_md-up"
+/>
+`;
+
+exports[`Hidden should render correctly with sm prop 1`] = `
+<div
+  class="seed-hidden seed-hidden_sm"
+/>
+`;
+
+exports[`Hidden should render correctly with smDown prop 1`] = `
+<div
+  class="seed-hidden seed-hidden_sm-down"
+/>
+`;
+
+exports[`Hidden should render correctly with smUp prop 1`] = `
+<div
+  class="seed-hidden seed-hidden_sm-up"
+/>
+`;
+
+exports[`Hidden should render correctly with xl prop 1`] = `
+<div
+  class="seed-hidden seed-hidden_xl"
+/>
+`;
+
+exports[`Hidden should render correctly with xlDown prop 1`] = `
+<div
+  class="seed-hidden seed-hidden_xl-down"
+/>
+`;
+
+exports[`Hidden should render correctly with xlUp prop 1`] = `
+<div
+  class="seed-hidden seed-hidden_xl-up"
+/>
+`;
+
+exports[`Hidden should render correctly with xsDown prop 1`] = `
+<div
+  class="seed-hidden seed-hidden_xs-down"
+/>
+`;
+
+exports[`Hidden should render correctly with xxlUp prop 1`] = `
+<div
+  class="seed-hidden seed-hidden_xxl-up"
+/>
+`;

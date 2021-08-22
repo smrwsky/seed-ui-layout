@@ -1,0 +1,17 @@
+$positions: absolute, fixed, relative, static, sticky;
+
+@each $name, $val in $positions {
+  @each $breakpoint in map-keys($grid-breakpoints) {
+    @include bp-up($breakpoint) {
+      @if $breakpoint == xs {
+        ._seed-pos_#{$name} {
+          position: $name;
+        }
+      } @else {
+        ._seed-pos-#{$breakpoint}_#{$name} {
+          position: $name;
+        }
+      }
+    }
+  }
+}

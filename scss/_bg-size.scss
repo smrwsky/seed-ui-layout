@@ -1,0 +1,13 @@
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include bp-up($breakpoint) {
+    @if $breakpoint == xs {
+      ._seed-bg-size {
+        background-size: var(--seed-bg-size);
+      }
+    } @else {
+      ._seed-bg-size-#{$breakpoint} {
+        background-size: var(--seed-bg-size-#{$breakpoint});
+      }
+    }
+  }
+}

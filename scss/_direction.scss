@@ -1,0 +1,17 @@
+$directions: column, column-reverse, row, row-reverse;
+
+@each $name, $val in $directions {
+  @each $breakpoint in map-keys($grid-breakpoints) {
+    @include bp-up($breakpoint) {
+      @if $breakpoint == xs {
+        ._seed-direction_#{$name} {
+          flex-direction: $name;
+        }
+      } @else {
+        ._seed-direction-#{$breakpoint}_#{$name} {
+          flex-direction: $name;
+        }
+      }
+    }
+  }
+}

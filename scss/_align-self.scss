@@ -1,0 +1,17 @@
+
+@each $name, $val in $aligns {
+  @each $breakpoint in map-keys($grid-breakpoints) {
+    @include bp-up($breakpoint) {
+      @if $breakpoint == xs {
+        ._seed-align-self_#{$name} {
+          align-self: $val;
+        }
+      } @else {
+        ._seed-align-self-#{$breakpoint}_#{$name} {
+          align-self: $val;
+        }
+      }
+    }
+  }
+}
+

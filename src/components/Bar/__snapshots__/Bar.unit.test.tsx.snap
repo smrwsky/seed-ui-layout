@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bar should render correctly with as prop 1`] = `
+<header
+  class=""
+/>
+`;
+
+exports[`Bar should render correctly with children prop 1`] = `
+<div
+  class=""
+>
+  <p>
+    Element with text.
+  </p>
+</div>
+`;
+
+exports[`Bar should render correctly with default props 1`] = `
+<div
+  class=""
+/>
+`;
+
+exports[`Bar should render correctly with height prop 1`] = `
+<div
+  class="_seed-h"
+  style="--seed-h: 500px;"
+/>
+`;
+
+exports[`Bar should render correctly with height responsive prop 1`] = `
+<div
+  class="_seed-h _seed-h-sm _seed-h-md _seed-h-lg _seed-h-xl _seed-h-xxl"
+  style="--seed-h: auto; --seed-h-sm: 75%; --seed-h-md: 500px; --seed-h-lg: 625px; --seed-h-xl: 750px; --seed-h-xxl: 875px;"
+/>
+`;
+
+exports[`Bar should render correctly with max-height prop 1`] = `
+<div
+  class="_seed-max-h"
+  style="--seed-max-h: 500px;"
+/>
+`;
+
+exports[`Bar should render correctly with max-height responsive prop 1`] = `
+<div
+  class="_seed-max-h _seed-max-h-sm _seed-max-h-md _seed-max-h-lg _seed-max-h-xl _seed-max-h-xxl"
+  style="--seed-max-h: auto; --seed-max-h-sm: 75%; --seed-max-h-md: 500px; --seed-max-h-lg: 625px; --seed-max-h-xl: 750px; --seed-max-h-xxl: 875px;"
+/>
+`;
+
+exports[`Bar should render correctly with max-width prop 1`] = `
+<div
+  class="_seed-max-w"
+  style="--seed-max-w: 500px;"
+/>
+`;
+
+exports[`Bar should render correctly with max-width responsive prop 1`] = `
+<div
+  class="_seed-max-w _seed-max-w-sm _seed-max-w-md _seed-max-w-lg _seed-max-w-xl _seed-max-w-xxl"
+  style="--seed-max-w: auto; --seed-max-w-sm: 75%; --seed-max-w-md: 500px; --seed-max-w-lg: 625px; --seed-max-w-xl: 750px; --seed-max-w-xxl: 875px;"
+/>
+`;
+
+exports[`Bar should render correctly with min-height prop 1`] = `
+<div
+  class="_seed-min-h"
+  style="--seed-min-h: 500px;"
+/>
+`;
+
+exports[`Bar should render correctly with min-height responsive prop 1`] = `
+<div
+  class="_seed-min-h _seed-min-h-sm _seed-min-h-md _seed-min-h-lg _seed-min-h-xl _seed-min-h-xxl"
+  style="--seed-min-h: auto; --seed-min-h-sm: 75%; --seed-min-h-md: 500px; --seed-min-h-lg: 625px; --seed-min-h-xl: 750px; --seed-min-h-xxl: 875px;"
+/>
+`;
+
+exports[`Bar should render correctly with min-width prop 1`] = `
+<div
+  class="_seed-min-w"
+  style="--seed-min-w: 500px;"
+/>
+`;
+
+exports[`Bar should render correctly with min-width responsive prop 1`] = `
+<div
+  class="_seed-min-w _seed-min-w-sm _seed-min-w-md _seed-min-w-lg _seed-min-w-xl _seed-min-w-xxl"
+  style="--seed-min-w: auto; --seed-min-w-sm: 75%; --seed-min-w-md: 500px; --seed-min-w-lg: 625px; --seed-min-w-xl: 750px; --seed-min-w-xxl: 875px;"
+/>
+`;
+
+exports[`Bar should render correctly with offset prop 1`] = `
+<div
+  class="_seed-offset"
+  style="--seed-offset-top: 500px;"
+/>
+`;
+
+exports[`Bar should render correctly with offset responsive prop 1`] = `
+<div
+  class="_seed-offset _seed-offset-sm _seed-offset-md _seed-offset-lg _seed-offset-xl _seed-offset-xxl"
+  style="--seed-offset-bottom-xl: 500px; --seed-offset-bottom-xxl: 500px; --seed-offset-left-xxl: 625px; --seed-offset-right-xl: 375px; --seed-offset-right-xxl: 375px; --seed-offset-top: auto; --seed-offset-top-sm: 25%; --seed-offset-top-md: 250px; --seed-offset-top-lg: 250px; --seed-offset-top-xl: 250px; --seed-offset-top-xxl: 250px;"
+/>
+`;
+
+exports[`Bar should render correctly with position prop 1`] = `
+<div
+  class="_seed-pos_absolute"
+/>
+`;
+
+exports[`Bar should render correctly with position responsive prop 1`] = `
+<div
+  class="_seed-pos_absolute _seed-pos-sm_fixed _seed-pos-md_relative _seed-pos-lg_static _seed-pos-xl_sticky _seed-pos-xxl_absolute"
+/>
+`;
+
+exports[`Bar should render correctly with width prop 1`] = `
+<div
+  class="_seed-w"
+  style="--seed-w: 500px;"
+/>
+`;
+
+exports[`Bar should render correctly with width responsive prop 1`] = `
+<div
+  class="_seed-w _seed-w-sm _seed-w-md _seed-w-lg _seed-w-xl _seed-w-xxl"
+  style="--seed-w: auto; --seed-w-sm: 75%; --seed-w-md: 500px; --seed-w-lg: 625px; --seed-w-xl: 750px; --seed-w-xxl: 875px;"
+/>
+`;

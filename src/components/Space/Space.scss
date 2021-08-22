@@ -1,0 +1,23 @@
+.seed-space {
+  display: flex;
+
+  &_gutter {
+    &._seed-direction_column,
+    &._seed-direction_column-reverse {
+      > *:not(last-of-type) {
+        margin-bottom: var(--seed-space-gutter);
+      }
+    }
+
+    &._seed-direction_row,
+    &._seed-direction_row-reverse {
+      > *:not(last-of-type) {
+        margin-right: var(--seed-space-gutter);
+      }
+    }
+  }
+
+  &__item {
+    line-height: 1;
+  }
+}
