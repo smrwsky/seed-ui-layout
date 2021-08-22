@@ -1,5 +1,11 @@
 # @seed-ui/layout
 
+## 0.1.2
+
+### Patch Changes
+
+- 55516a9: Added tags for npm.
+
 ## 0.1.1
 
 ### Patch Changes
