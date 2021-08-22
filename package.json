@@ -2,17 +2,21 @@
   "name": "@seed-ui/layout",
   "description": "Components and style-utilities for creating responsive layouts.",
   "version": "0.1.1",
+  "keywords": [
+    "grid",
+    "react",
+    "react-component",
+    "responsive",
+    "sass",
+    "scss",
+    "ui"
+  ],
   "license": "MIT",
   "types": "dist/types/index.d.ts",
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
   "sideEffects": false,
-  "files": [
-    "css",
-    "dist",
-    "scss",
-    "package.json"
-  ],
+  "files": ["css", "dist", "scss", "package.json"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/srgmrwsk/seed-ui-layout.git"
