@@ -1,10 +1,9 @@
-<div style="text-align:center;">
 
 [![Seed UI](https://raw.githubusercontent.com/srgmrwsk/seed-ui-layout/main/seed-ui-logo.png)](https://github.com/srgmrwsk/seed-ui-layout)
 
-Components and style-utilities for creating responsive layouts.
+# @seed-ui/layout
 
-</div>
+Components and style-utilities for creating responsive layouts.
 
 - 💅 Styled with SCSS. You can import SCSS to use build-in mixins and variables.
 - 🪶 Uses utility-first approach and CSS variables for dynamic styles, so final CSS is much smaller.
