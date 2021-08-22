@@ -1,5 +1,11 @@
 # @seed-ui/layout
 
+## 0.1.3
+
+### Patch Changes
+
+- 0ce7fd5: Fixed Col className when span-value is 'auto'.
+
 ## 0.1.2
 
 ### Patch Changes
