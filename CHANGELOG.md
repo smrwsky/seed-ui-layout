@@ -1,5 +1,11 @@
 # @seed-ui/layout
 
+## 0.1.4
+
+### Patch Changes
+
+- c413af5: Fixed Col width styles.
+
 ## 0.1.3
 
 ### Patch Changes
