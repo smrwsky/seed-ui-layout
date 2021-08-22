@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Col should render correctly with align prop 1`] = `
+<div
+  class="seed-col _seed-align-self_center"
+/>
+`;
+
+exports[`Col should render correctly with align responsive prop 1`] = `
+<div
+  class="seed-col _seed-align-self_baseline _seed-align-self-sm_center _seed-align-self-md_end _seed-align-self-lg_start _seed-align-self-xl_stretch _seed-align-self-xxl_baseline"
+/>
+`;
+
+exports[`Col should render correctly with as prop 1`] = `
+<article
+  class="seed-col"
+/>
+`;
+
+exports[`Col should render correctly with children prop 1`] = `
+<div
+  class="seed-col"
+>
+  <p>
+    Element with text.
+  </p>
+</div>
+`;
+
+exports[`Col should render correctly with default props 1`] = `
+<div
+  class="seed-col"
+/>
+`;
+
+exports[`Col should render correctly with lg auto prop 1`] = `
+<div
+  class="seed-col"
+/>
+`;
+
+exports[`Col should render correctly with lg false prop 1`] = `
+<div
+  class="seed-col seed-col_lg_none"
+/>
+`;
+
+exports[`Col should render correctly with lg number prop 1`] = `
+<div
+  class="seed-col seed-col_lg_3"
+/>
+`;
+
+exports[`Col should render correctly with lg true prop 1`] = `
+<div
+  class="seed-col seed-col_lg_fill"
+/>
+`;
+
+exports[`Col should render correctly with md auto prop 1`] = `
+<div
+  class="seed-col"
+/>
+`;
+
+exports[`Col should render correctly with md false prop 1`] = `
+<div
+  class="seed-col seed-col_md_none"
+/>
+`;
+
+exports[`Col should render correctly with md number prop 1`] = `
+<div
+  class="seed-col seed-col_md_3"
+/>
+`;
+
+exports[`Col should render correctly with md true prop 1`] = `
+<div
+  class="seed-col seed-col_md_fill"
+/>
+`;
+
+exports[`Col should render correctly with order prop 1`] = `
+<div
+  class="seed-col _seed-order"
+  style="--seed-order: 2;"
+/>
+`;
+
+exports[`Col should render correctly with order responsive prop 1`] = `
+<div
+  class="seed-col _seed-order _seed-order-sm _seed-order-md _seed-order-lg _seed-order-xl _seed-order-xxl"
+  style="--seed-order: 1; --seed-order-sm: 2; --seed-order-md: 3; --seed-order-lg: 4; --seed-order-xl: 5; --seed-order-xxl: 6;"
+/>
+`;
+
+exports[`Col should render correctly with sm auto prop 1`] = `
+<div
+  class="seed-col"
+/>
+`;
+
+exports[`Col should render correctly with sm false prop 1`] = `
+<div
+  class="seed-col seed-col_sm_none"
+/>
+`;
+
+exports[`Col should render correctly with sm number prop 1`] = `
+<div
+  class="seed-col seed-col_sm_3"
+/>
+`;
+
+exports[`Col should render correctly with sm true prop 1`] = `
+<div
+  class="seed-col seed-col_sm_fill"
+/>
+`;
+
+exports[`Col should render correctly with xl auto prop 1`] = `
+<div
+  class="seed-col"
+/>
+`;
+
+exports[`Col should render correctly with xl false prop 1`] = `
+<div
+  class="seed-col seed-col_xl_none"
+/>
+`;
+
+exports[`Col should render correctly with xl number prop 1`] = `
+<div
+  class="seed-col seed-col_xl_3"
+/>
+`;
+
+exports[`Col should render correctly with xl true prop 1`] = `
+<div
+  class="seed-col seed-col_xl_fill"
+/>
+`;
+
+exports[`Col should render correctly with xs auto prop 1`] = `
+<div
+  class="seed-col"
+/>
+`;
+
+exports[`Col should render correctly with xs false prop 1`] = `
+<div
+  class="seed-col seed-col_xs_none"
+/>
+`;
+
+exports[`Col should render correctly with xs number prop 1`] = `
+<div
+  class="seed-col seed-col_xs_3"
+/>
+`;
+
+exports[`Col should render correctly with xs true prop 1`] = `
+<div
+  class="seed-col seed-col_xs_fill"
+/>
+`;
+
+exports[`Col should render correctly with xxl auto prop 1`] = `
+<div
+  class="seed-col"
+/>
+`;
+
+exports[`Col should render correctly with xxl false prop 1`] = `
+<div
+  class="seed-col seed-col_xxl_none"
+/>
+`;
+
+exports[`Col should render correctly with xxl number prop 1`] = `
+<div
+  class="seed-col seed-col_xxl_3"
+/>
+`;
+
+exports[`Col should render correctly with xxl true prop 1`] = `
+<div
+  class="seed-col seed-col_xxl_fill"
+/>
+`;

@@ -1,0 +1,24 @@
+$aligns: (
+  baseline: baseline,
+  center: center,
+  end: flex-end,
+  start: flex-start,
+  stretch: stretch,
+);
+
+@each $name, $val in $aligns {
+  @each $breakpoint in map-keys($grid-breakpoints) {
+    @include bp-up($breakpoint) {
+      @if $breakpoint == xs {
+        ._seed-align_#{$name} {
+          align-items: $val;
+        }
+      } @else {
+        ._seed-align-#{$breakpoint}_#{$name} {
+          align-items: $val;
+        }
+      }
+    }
+  }
+}
+

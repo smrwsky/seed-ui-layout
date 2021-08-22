@@ -1,0 +1,8 @@
+**/node_modules
+**/dist
+
+__coverage__
+node_modules
+coverage
+
+

@@ -1,0 +1,37 @@
+.seed-row {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  @each $breakpoint in map-keys($grid-breakpoints) {
+    @include bp-up($breakpoint) {
+      @if $breakpoint == xs {
+        &_gutter {
+          > * {
+            margin-top: var(--seed-row-gutter-y);
+            padding-left: calc(var(--seed-row-gutter-x) / 2);
+            padding-right: calc(var(--seed-row-gutter-x) / 2);
+          }
+
+          margin-top: calc(var(--seed-row-gutter-y) * -1);
+          margin-left: calc(var(--seed-row-gutter-x) / -2);
+          margin-right: calc(var(--seed-row-gutter-x) / -2);
+        }
+      } @else {
+        &_gutter-#{$breakpoint} {
+          > * {
+            margin-top: var(--row-gutter-y-#{$breakpoint});
+            padding-left: calc(var(--row-gutter-x-#{$breakpoint}) / 2);
+            padding-right: calc(var(--row-gutter-x-#{$breakpoint}) / 2);
+          }
+
+          margin-top: calc(var(--row-gutter-y-#{$breakpoint}) * -1);
+          margin-left: calc(var(--row-gutter-x-#{$breakpoint}) / -2);
+          margin-right: calc(var(--row-gutter-x-#{$breakpoint}) / -2);
+        }
+      }
+    }
+  }
+}

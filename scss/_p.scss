@@ -1,0 +1,15 @@
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include bp-up($breakpoint) {
+    @if $breakpoint == xs {
+      ._seed-p {
+        padding: var(--seed-p);
+      }
+    } @else {
+      ._seed-p-#{$breakpoint} {
+        padding: var(--seed-p-#{$breakpoint});
+      }
+    }
+  }
+}
+

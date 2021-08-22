@@ -1,0 +1,24 @@
+$justifies: (
+  center: center,
+  end: flex-end,
+  space-around: space-around,
+  space-between: space-between,
+  space-evenly: space-evenly,
+  start: flex-start,
+);
+
+@each $name, $val in $justifies {
+  @each $breakpoint in map-keys($grid-breakpoints) {
+    @include bp-up($breakpoint) {
+      @if $breakpoint == xs {
+        ._seed-justify_#{$name} {
+          justify-content: $val;
+        }
+      } @else {
+        ._seed-justify-#{$breakpoint}_#{$name} {
+          justify-content: $val;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Row should render correctly with align prop 1`] = `
+<div
+  class="seed-row _seed-align_center"
+/>
+`;
+
+exports[`Row should render correctly with as prop 1`] = `
+<section
+  class="seed-row"
+/>
+`;
+
+exports[`Row should render correctly with children prop 1`] = `
+<div
+  class="seed-row"
+>
+  <p>
+    Element with text.
+  </p>
+</div>
+`;
+
+exports[`Row should render correctly with default props 1`] = `
+<div
+  class="seed-row"
+/>
+`;
+
+exports[`Row should render correctly with gutter array prop 1`] = `
+<div
+  class="seed-row seed-row_gutter"
+  style="--seed-row-gutter-y: 16px; --seed-row-gutter-x: 32px;"
+/>
+`;
+
+exports[`Row should render correctly with gutter prop 1`] = `
+<div
+  class="seed-row seed-row_gutter"
+  style="--seed-row-gutter-y: 16px; --seed-row-gutter-x: 16px;"
+/>
+`;
+
+exports[`Row should render correctly with justify prop 1`] = `
+<div
+  class="seed-row _seed-justify_center"
+/>
+`;

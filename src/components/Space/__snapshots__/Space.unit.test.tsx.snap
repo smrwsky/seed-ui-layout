@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Space should render correctly with align prop 1`] = `
+<div
+  class="seed-space _seed-align_center"
+/>
+`;
+
+exports[`Space should render correctly with as prop 1`] = `
+<section
+  class="seed-space"
+/>
+`;
+
+exports[`Space should render correctly with children array prop 1`] = `
+<div
+  class="seed-space"
+>
+  <div
+    class="seed-space__item"
+  >
+    <p>
+      Element with text 1.
+    </p>
+  </div>
+  <div
+    class="seed-space__item"
+  >
+    <p>
+      Element with text 2.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Space should render correctly with children prop 1`] = `
+<div
+  class="seed-space"
+>
+  <div
+    class="seed-space__item"
+  >
+    <p>
+      Element with text.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Space should render correctly with default props 1`] = `
+<div
+  class="seed-space"
+/>
+`;
+
+exports[`Space should render correctly with direction prop 1`] = `
+<div
+  class="seed-space _seed-direction_column"
+/>
+`;
+
+exports[`Space should render correctly with gutter prop 1`] = `
+<div
+  class="seed-space seed-space_gutter"
+  style="--seed-space-gutter: 24px;"
+/>
+`;
+
+exports[`Space should render correctly with justify prop 1`] = `
+<div
+  class="seed-space _seed-justify_center"
+/>
+`;
