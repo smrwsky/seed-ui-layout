@@ -23,7 +23,7 @@
         &_auto {
           flex: 0 0 auto;
           display: block;
-          width: auto;
+          width: auto !important;
         }
 
         &_none {
@@ -34,7 +34,7 @@
           &_#{$i} {
             flex: 0 0 auto;
             display: block;
-            width: $i / 12 * 100%;
+            width: $i / 12 * 100% !important;
           }
         }
       }
