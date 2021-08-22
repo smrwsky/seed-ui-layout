@@ -5,6 +5,7 @@ import { ColSpan } from './types/ColSpan';
 
 function getColSpan(value: Maybe<ColSpan>): Maybe<string> {
   return (
+    (value === 'auto' && 'auto') ||
     (value === true && 'fill') ||
     ((value === false || value === 0) && 'none') ||
     (typeof value === 'number' && value.toString()) ||

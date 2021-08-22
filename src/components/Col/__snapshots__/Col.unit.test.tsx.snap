@@ -36,7 +36,7 @@ exports[`Col should render correctly with default props 1`] = `
 
 exports[`Col should render correctly with lg auto prop 1`] = `
 <div
-  class="seed-col"
+  class="seed-col seed-col_lg_auto"
 />
 `;
 
@@ -60,7 +60,7 @@ exports[`Col should render correctly with lg true prop 1`] = `
 
 exports[`Col should render correctly with md auto prop 1`] = `
 <div
-  class="seed-col"
+  class="seed-col seed-col_md_auto"
 />
 `;
 
@@ -98,7 +98,7 @@ exports[`Col should render correctly with order responsive prop 1`] = `
 
 exports[`Col should render correctly with sm auto prop 1`] = `
 <div
-  class="seed-col"
+  class="seed-col seed-col_sm_auto"
 />
 `;
 
@@ -122,7 +122,7 @@ exports[`Col should render correctly with sm true prop 1`] = `
 
 exports[`Col should render correctly with xl auto prop 1`] = `
 <div
-  class="seed-col"
+  class="seed-col seed-col_xl_auto"
 />
 `;
 
@@ -146,7 +146,7 @@ exports[`Col should render correctly with xl true prop 1`] = `
 
 exports[`Col should render correctly with xs auto prop 1`] = `
 <div
-  class="seed-col"
+  class="seed-col seed-col_xs_auto"
 />
 `;
 
@@ -170,7 +170,7 @@ exports[`Col should render correctly with xs true prop 1`] = `
 
 exports[`Col should render correctly with xxl auto prop 1`] = `
 <div
-  class="seed-col"
+  class="seed-col seed-col_xxl_auto"
 />
 `;
 
