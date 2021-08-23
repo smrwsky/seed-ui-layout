@@ -1,0 +1,13 @@
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include bp-up($breakpoint) {
+    @if $breakpoint == xs {
+      ._seed-left {
+        left: var(--seed-left);
+      }
+    } @else {
+      ._seed-left-#{$breakpoint} {
+        left: var(--seed-left-#{$breakpoint});
+      }
+    }
+  }
+}
