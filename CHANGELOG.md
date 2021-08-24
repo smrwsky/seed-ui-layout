@@ -1,5 +1,11 @@
 # @seed-ui/layout
 
+## 0.2.0
+
+### Minor Changes
+
+- b90a9fc: Updated Bar API and positioning utilities.
+
 ## 0.1.4
 
 ### Patch Changes
