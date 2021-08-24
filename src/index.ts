@@ -3,13 +3,14 @@ export * from './types/Direction';
 export * from './types/Justify';
 export * from './types/Position';
 export * from './types/ResponsiveValue';
+export * from './types/Sizing';
+export * from './types/Spacing';
 
 export * from './utils/get-bg-image-variables';
 export * from './utils/get-bg-pos-variables';
 export * from './utils/get-bg-repeat-variables';
 export * from './utils/get-bg-size-variables';
 export * from './utils/get-boolean-styles';
-export * from './utils/get-offset-right-variables';
 export * from './utils/get-order-variables';
 export * from './utils/get-sizing-variables';
 export * from './utils/get-spacing-variables';

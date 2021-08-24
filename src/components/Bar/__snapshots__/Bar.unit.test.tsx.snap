@@ -6,6 +6,20 @@ exports[`Bar should render correctly with as prop 1`] = `
 />
 `;
 
+exports[`Bar should render correctly with bottom prop 1`] = `
+<div
+  class="_seed-bottom"
+  style="--seed-bottom: 500px;"
+/>
+`;
+
+exports[`Bar should render correctly with bottom responsive prop 1`] = `
+<div
+  class="_seed-bottom _seed-bottom-sm _seed-bottom-md _seed-bottom-lg _seed-bottom-xl _seed-bottom-xxl"
+  style="--seed-bottom: auto; --seed-bottom-sm: 75%; --seed-bottom-md: 500px; --seed-bottom-lg: 625px; --seed-bottom-xl: 750px; --seed-bottom-xxl: 875px;"
+/>
+`;
+
 exports[`Bar should render correctly with children prop 1`] = `
 <div
   class=""
@@ -33,6 +47,20 @@ exports[`Bar should render correctly with height responsive prop 1`] = `
 <div
   class="_seed-h _seed-h-sm _seed-h-md _seed-h-lg _seed-h-xl _seed-h-xxl"
   style="--seed-h: auto; --seed-h-sm: 75%; --seed-h-md: 500px; --seed-h-lg: 625px; --seed-h-xl: 750px; --seed-h-xxl: 875px;"
+/>
+`;
+
+exports[`Bar should render correctly with left prop 1`] = `
+<div
+  class="_seed-left"
+  style="--seed-left: 500px;"
+/>
+`;
+
+exports[`Bar should render correctly with left responsive prop 1`] = `
+<div
+  class="_seed-left _seed-left-sm _seed-left-md _seed-left-lg _seed-left-xl _seed-left-xxl"
+  style="--seed-left: auto; --seed-left-sm: 75%; --seed-left-md: 500px; --seed-left-lg: 625px; --seed-left-xl: 750px; --seed-left-xxl: 875px;"
 />
 `;
 
@@ -92,20 +120,6 @@ exports[`Bar should render correctly with min-width responsive prop 1`] = `
 />
 `;
 
-exports[`Bar should render correctly with offset prop 1`] = `
-<div
-  class="_seed-offset"
-  style="--seed-offset-top: 500px;"
-/>
-`;
-
-exports[`Bar should render correctly with offset responsive prop 1`] = `
-<div
-  class="_seed-offset _seed-offset-sm _seed-offset-md _seed-offset-lg _seed-offset-xl _seed-offset-xxl"
-  style="--seed-offset-bottom-xl: 500px; --seed-offset-bottom-xxl: 500px; --seed-offset-left-xxl: 625px; --seed-offset-right-xl: 375px; --seed-offset-right-xxl: 375px; --seed-offset-top: auto; --seed-offset-top-sm: 25%; --seed-offset-top-md: 250px; --seed-offset-top-lg: 250px; --seed-offset-top-xl: 250px; --seed-offset-top-xxl: 250px;"
-/>
-`;
-
 exports[`Bar should render correctly with position prop 1`] = `
 <div
   class="_seed-pos_absolute"
@@ -115,6 +129,34 @@ exports[`Bar should render correctly with position prop 1`] = `
 exports[`Bar should render correctly with position responsive prop 1`] = `
 <div
   class="_seed-pos_absolute _seed-pos-sm_fixed _seed-pos-md_relative _seed-pos-lg_static _seed-pos-xl_sticky _seed-pos-xxl_absolute"
+/>
+`;
+
+exports[`Bar should render correctly with right prop 1`] = `
+<div
+  class="_seed-right"
+  style="--seed-right: 500px;"
+/>
+`;
+
+exports[`Bar should render correctly with right responsive prop 1`] = `
+<div
+  class="_seed-right _seed-right-sm _seed-right-md _seed-right-lg _seed-right-xl _seed-right-xxl"
+  style="--seed-right: auto; --seed-right-sm: 75%; --seed-right-md: 500px; --seed-right-lg: 625px; --seed-right-xl: 750px; --seed-right-xxl: 875px;"
+/>
+`;
+
+exports[`Bar should render correctly with top prop 1`] = `
+<div
+  class="_seed-top"
+  style="--seed-top: 500px;"
+/>
+`;
+
+exports[`Bar should render correctly with top responsive prop 1`] = `
+<div
+  class="_seed-top _seed-top-sm _seed-top-md _seed-top-lg _seed-top-xl _seed-top-xxl"
+  style="--seed-top: auto; --seed-top-sm: 75%; --seed-top-md: 500px; --seed-top-lg: 625px; --seed-top-xl: 750px; --seed-top-xxl: 875px;"
 />
 `;
 

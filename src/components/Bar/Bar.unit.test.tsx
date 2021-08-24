@@ -25,6 +25,25 @@ describe('Bar', () => {
     expect(actual).toMatchSnapshot();
   });
 
+  it('should render correctly with bottom prop', () => {
+    const actual = setup(create, { bottom: 500 });
+    expect(actual).toMatchSnapshot();
+  });
+
+  it('should render correctly with bottom responsive prop', () => {
+    const actual = setup(create, {
+      bottom: {
+        xs: 'auto',
+        sm: 0.75,
+        md: 500,
+        lg: 625,
+        xl: 750,
+        xxl: 875,
+      },
+    });
+    expect(actual).toMatchSnapshot();
+  });
+
   it('should render correctly with height prop', () => {
     const actual = setup(create, { height: 500 });
     expect(actual).toMatchSnapshot();
@@ -33,6 +52,25 @@ describe('Bar', () => {
   it('should render correctly with height responsive prop', () => {
     const actual = setup(create, {
       height: {
+        xs: 'auto',
+        sm: 0.75,
+        md: 500,
+        lg: 625,
+        xl: 750,
+        xxl: 875,
+      },
+    });
+    expect(actual).toMatchSnapshot();
+  });
+
+  it('should render correctly with left prop', () => {
+    const actual = setup(create, { left: 500 });
+    expect(actual).toMatchSnapshot();
+  });
+
+  it('should render correctly with left responsive prop', () => {
+    const actual = setup(create, {
+      left: {
         xs: 'auto',
         sm: 0.75,
         md: 500,
@@ -124,26 +162,6 @@ describe('Bar', () => {
     expect(actual).toMatchSnapshot();
   });
 
-  it('should render correctly with offset prop', () => {
-    const actual = setup(create, { offset: 500 });
-    expect(actual).toMatchSnapshot();
-  });
-
-  it('should render correctly with offset responsive prop', () => {
-    const actual = setup(create, {
-      offset: {
-        xs: 'auto',
-        sm: 0.25,
-        md: 250,
-        lg: [250, 375],
-        xl: [250, 375, 500],
-        xxl: [250, 375, 500, 625],
-      },
-    });
-
-    expect(actual).toMatchSnapshot();
-  });
-
   it('should render correctly with position prop', () => {
     const actual = setup(create, { position: 'absolute' });
     expect(actual).toMatchSnapshot();
@@ -164,6 +182,43 @@ describe('Bar', () => {
     expect(actual).toMatchSnapshot();
   });
 
+  it('should render correctly with right prop', () => {
+    const actual = setup(create, { right: 500 });
+    expect(actual).toMatchSnapshot();
+  });
+
+  it('should render correctly with right responsive prop', () => {
+    const actual = setup(create, {
+      right: {
+        xs: 'auto',
+        sm: 0.75,
+        md: 500,
+        lg: 625,
+        xl: 750,
+        xxl: 875,
+      },
+    });
+    expect(actual).toMatchSnapshot();
+  });
+
+  it('should render correctly with top prop', () => {
+    const actual = setup(create, { top: 500 });
+    expect(actual).toMatchSnapshot();
+  });
+
+  it('should render correctly with top responsive prop', () => {
+    const actual = setup(create, {
+      top: {
+        xs: 'auto',
+        sm: 0.75,
+        md: 500,
+        lg: 625,
+        xl: 750,
+        xxl: 875,
+      },
+    });
+    expect(actual).toMatchSnapshot();
+  });
   it('should render correctly with width prop', () => {
     const actual = setup(create, { width: 500 });
     expect(actual).toMatchSnapshot();
